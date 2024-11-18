@@ -31,8 +31,8 @@ It provides a dashboard for users to manage their finances effectively.
    
 4. Set up the database:
    ```bash
-  Copy code
-  python reset_db.py
+   Copy code
+   python reset_db.py
 6. Run the application:
  ```bash
   Copy code
