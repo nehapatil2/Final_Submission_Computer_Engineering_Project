@@ -1,0 +1,25 @@
+# Handle text files and enforce LF line endings for cross-platform consistency
+*.py       text eol=lf
+*.html     text eol=lf
+*.css      text eol=lf
+*.js       text eol=lf
+*.md       text eol=lf
+*.txt      text eol=lf
+
+# Mark SQLite database files as binary
+*.sqlite3  binary
+
+# Exclude compiled Python files from language statistics
+*.pyc      linguist-generated
+
+# Exclude virtual environment files from language statistics
+finance_env/** linguist-generated
+
+# Handle images (if any)
+*.png      binary
+*.jpg      binary
+*.jpeg     binary
+*.gif      binary
+
+# Handle HTML template files for proper language detection
+templates/** linguist-detectable
