@@ -24,15 +24,19 @@ It provides a dashboard for users to manage their finances effectively.
    git clone <repository-url>
    cd personal_finance_tool
 
-2. Install dependencies:   ```bash
-  Copy code
-  pip install -r requirements.txt
-3. Set up the database:
- ```bash
+2. Install dependencies:
+   ```bash
+   Copy code
+   pip install -r requirements.txt
+   
+4. Set up the database:
+   ```bash
   Copy code
   python reset_db.py
-
-4. Run the application:
+6. Run the application:
  ```bash
   Copy code
   flask run
+
+
+
