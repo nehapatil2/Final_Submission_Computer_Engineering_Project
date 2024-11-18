@@ -29,16 +29,12 @@ It provides a dashboard for users to manage their finances effectively.
   Copy code
   pip install -r requirements.txt
 
- 
 3. Set up the database:
-
   ```bash
   Copy code
   python reset_db.py
 
-
 4. Run the application:
-
   ```bash
   Copy code
   flask run
