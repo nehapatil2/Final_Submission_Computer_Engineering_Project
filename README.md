@@ -34,9 +34,9 @@ It provides a dashboard for users to manage their finances effectively.
    Copy code
    python reset_db.py
 6. Run the application:
- ```bash
-  Copy code
-  flask run
+   ```bash
+   Copy code
+   flask run
 
 
 
