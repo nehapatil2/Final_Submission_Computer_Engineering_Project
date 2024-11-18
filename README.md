@@ -25,16 +25,16 @@ It provides a dashboard for users to manage their finances effectively.
    cd personal_finance_tool
 
 2. Install dependencies:
-  ```bash
+   ```bash
   Copy code
   pip install -r requirements.txt
-
+  
 3. Set up the database:
-  ```bash
+ ```bash
   Copy code
   python reset_db.py
 
 4. Run the application:
-  ```bash
+ ```bash
   Copy code
   flask run
